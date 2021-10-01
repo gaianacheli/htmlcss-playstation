@@ -32,3 +32,33 @@ body {
     font-size: 20px;
     color: black;
 }
+.hero {
+    height: 675px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+.box {
+    width: 300px;;
+    margin: 3rem;
+}
+.logo_returnal{
+    width: 170px;
+}
+.title h1 {
+    color: white;
+    font-size: 31px;
+    margin: 1.5rem 0rem;
+}
+.text p {
+    color: white;
+    font-size: 12px;
+}
+.bt_acquista a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgba(205, 61, 15, 1);
+    padding: 0.5rem;
+    border-radius: 15px;
+}
