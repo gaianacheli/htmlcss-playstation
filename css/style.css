@@ -78,7 +78,7 @@ body {
     border-radius: 18px;
 }
 .mg_3 {
-    margin-top: 3rem;
+    margin: 3rem 0rem;
 }
 .cl_border {
     border: 3px solid;
@@ -99,7 +99,7 @@ body {
     text-align: center;
 }
 .play5 {
-    width: 600px;
+    width: 350px;
 }
 .px_4 {
     padding-left: 4rem;
@@ -119,11 +119,11 @@ body {
     margin-bottom: 2rem;
 }
 .image_play {
-    width: 220px;
+    width: 150px;
     border-bottom: 3px solid rgba(45, 100, 230, 1);
 }
 .img_play {
-    width: 220px;
+    width: 150px;
     filter: opacity(0.5);
 }
 .hero_two {
@@ -140,5 +140,16 @@ body {
     color: white;
 }
 .img_new {
-    width: 150px;
+    width: 125px;
+    
+    border-radius: 20px;
+}
+.card_style {
+    background-color: rgba(31, 31, 31, 1);
+    border: transparent;
+    margin-bottom: 2rem;
+}
+.card_title {
+    font-size: 13px;
+    margin-top: 0.5rem;
 }
