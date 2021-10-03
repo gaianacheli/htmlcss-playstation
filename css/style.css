@@ -1,4 +1,8 @@
+html{
+    width: 100%;
+}
 body {
+    width: 100%;
     font-family: Arial, sans-serif;
 }
 /***header***/
@@ -40,6 +44,7 @@ body {
     background-image: url(../img/jumbo-bg.png);
     background-position: top;
     background-size: cover;
+    overflow-x: hidden;
 }
 .box {
     width: 300px;;
@@ -67,11 +72,13 @@ body {
 }
 /**image game**/
 .img_game {
-    width: 220px;
+    display: block;
+    margin-inline: auto;
+    width: 150px;
     border-radius: 18px;
 }
 .mg_3 {
-    margin: 3rem;
+    margin-top: 3rem;
 }
 .cl_border {
     border: 3px solid;
@@ -90,4 +97,48 @@ body {
 .play_due p {
     color: rgba(139, 139, 139, 1);
     text-align: center;
+}
+.play5 {
+    width: 600px;
+}
+.px_4 {
+    padding-left: 4rem;
+}
+.card_link {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(45, 100, 230, 1);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+.card-body h5 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.card-body p {
+    margin-bottom: 2rem;
+}
+.image_play {
+    width: 220px;
+    border-bottom: 3px solid rgba(45, 100, 230, 1);
+}
+.img_play {
+    width: 220px;
+    filter: opacity(0.5);
+}
+.hero_two {
+    height: 515px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size:cover;
+}
+.new {
+    padding: 0.5rem 2rem;
+    background-color: rgba(31, 31, 31, 1);
+}
+.white  {
+    color: white;
+}
+.img_new {
+    width: 150px;
 }

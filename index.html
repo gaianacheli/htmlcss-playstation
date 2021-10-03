@@ -10,15 +10,17 @@
     <title>Playstation</title>
 </head>
 <body>
+  <div class="container-fluid">
     <header>
-        <div class="bg-dark">
-            <div class="text-end ">
-                <img class="logo_sony" src="./img/sony_logo.svg" alt="logo sony">
-            </div>
+      <div class="row bg-dark">
+        <div class="col-12 text-end ">
+            <img class="logo_sony" src="./img/sony_logo.svg" alt="logo sony">
         </div>
-        <div class="col-12">
+      </div>   
+       <div class="row">
+           <div class="col-xs-12" style="padding: 0">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+                <div class="container-fluid" style="padding: 0">
                   <img src="./img/play_logo.svg" alt="">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -72,11 +74,11 @@
                         </ul>
                     </div>
                   </div>
-                </div>
              </nav>
-        </div>
+           </div>  
+       </div>
     </header>
-    <main>
+   <main>
         <div class="row hero">
            <div class="box d-flex flex-column justify-content-end">
                <div>
@@ -94,10 +96,10 @@
            </div>
         </div>
         <div class="row mg_3">
-            <div class="col-xs-6 col-sm-4 col-lg-2 ">
-                <img class="img_game cl_border " src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            <div class=" col-xs-6 col-sm-4 col-lg-2 ">
+                <img class="img_game cl_border" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
             </div>
-            <div class="col-xs-6 col-sm-4 col-lg-2">
+            <div class="col-xs-6 col-sm-4 col-lg-2 flex-wrap ">
                 <img class="img_game" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-2">
@@ -114,7 +116,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-4 offset-4 ">
+            <div class="col-8 offset-2 ">
                 <div class="play">
                     <p>PLAY HAS NO LIMITS</p>
                     <h2>Ecco la PlayStation 5</h2>
@@ -124,8 +126,69 @@
                 </div>
             </div>
         </div>
-        
-    </main>
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center px_4">
+              <div class="card" style="width: 26rem; border: none;">
+                <div class="card-body">
+                  <h5 class="card-title">Console PlayStation</h5>
+                  <p class="card-text">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+                  <a href="#" class="card-link card_link">Maggiori informazioni</a>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+                <img class="play5" src="./img/playstation-5-thumb.png" alt="playstation">
+            </div>
+        </div>
+        <div class="row d_flex mg_3">
+        <div class="col-sm-4 col-lg-2 offset-lg-1">
+            <img class="image_play" src="./img/playstation-5-thumb.png" alt="">
+        </div>
+        <div class="col-sm-4 col-lg-2 flex-wrap ">
+            <img class="img_play" src="./img/joypad-thumb.png" alt="">
+        </div>
+        <div class="col-sm-4 col-lg-2">
+            <img class="img_play" src="./img/headset-thumb.png" alt="">
+        </div>
+        <div class="col-sm-4 col-lg-2">
+            <img class="img_play" src="./img/remote-thumb.png" alt="">
+        </div>
+        <div class="col-sm-4 col-lg-2">
+            <img class="img_play" src="./img/camera-thumb.jpg" alt="">
+        </div>
+      </div>
+      <div class="row hero_two">
+        <div class="box d-flex flex-column justify-content-end">
+            <div>
+                <img class="logo_returnal" src="./img/it-takes-two-logo.png" alt="">
+            </div>
+            <div class="title">
+                <h1>Un' avventura cooperativa selvaggia ti attende</h1>
+            </div>
+            <div class="text">
+                <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che  stravolge il suo genere. </p>
+            </div>
+            <div class="bt_acquista">
+                <a href="#">Acquista ora</a>
+            </div>
+        </div>
+     </div>
+     <div class="row new">
+       <h3 class="white">Nuove uscite</h3>
+       <p class="white">Giochi incredibili per PS4 e PS5 disponibili ora</p>
+     </div>
+     <div class="row new">
+      <div class="card" style="width: 15rem;">
+        <img clas src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Tony Hawk's Pro Skater 1+2</p>
+        </div>
+      </div>
+     </div>
+    </main> 
+    
+  </div>
     
 </body>
 </html>
