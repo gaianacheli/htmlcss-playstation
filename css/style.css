@@ -60,7 +60,7 @@ body {
 }
 .text p {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
 }
 .bt_acquista a {
     color: white;
@@ -76,6 +76,7 @@ body {
     margin-inline: auto;
     width: 150px;
     border-radius: 18px;
+    margin-bottom: 2rem;
 }
 .mg_3 {
     margin: 3rem 0rem;
@@ -182,4 +183,19 @@ body {
 .img_store {
     width: 210px;
     margin-bottom: 2rem;
+}
+.hero_four {
+    background-color:rgba(22, 28, 59, 1)
+}
+.logo_playstation {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+.bt_esplora_two a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5rem;
+
 }
