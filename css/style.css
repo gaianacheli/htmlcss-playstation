@@ -153,3 +153,29 @@ body {
     font-size: 13px;
     margin-top: 0.5rem;
 }
+.card_text {
+    color: rgba(154, 154, 154, 1);
+}
+.hero_three {
+    background-color: rgba(190, 188, 187, 1);
+}
+.black {
+    color: black;
+}
+.logo_plus {
+    width: 300px;
+    margin-bottom: 3rem;
+}
+.box_plus {
+    width: 510px;
+    margin: 3rem;
+}
+.bt_esplora {
+    margin-top: 2rem;
+}
+.bt_esplora a {
+    text-decoration: none;
+    background-color: rgba(217, 218, 220, 1);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
