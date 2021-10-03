@@ -167,7 +167,7 @@ body {
     margin-bottom: 3rem;
 }
 .box_plus {
-    width: 510px;
+    width: 480px;
     margin: 3rem;
 }
 .bt_esplora {
@@ -178,4 +178,8 @@ body {
     background-color: rgba(217, 218, 220, 1);
     border-radius: 20px;
     padding: 0.5rem;
+}
+.img_store {
+    width: 210px;
+    margin-bottom: 2rem;
 }
