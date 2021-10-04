@@ -199,3 +199,26 @@ body {
     padding: 0.5rem;
 
 }
+/***footer***/
+.style_foot {
+    background-color: rgba(0, 67, 156, 1);
+    padding: 4rem 3rem;
+}
+.lenguage p {
+    margin: 0 10px;
+    color: white;
+    font-size: 10px;
+}
+.lista {
+    color: white;
+    list-style: none;
+    font-size: 14px;
+}
+.logo_sie {
+    width: 100px;
+}
+.testo {
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
